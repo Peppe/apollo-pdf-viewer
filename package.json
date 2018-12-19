@@ -1,0 +1,34 @@
+{
+  "name": "@vaadin/apollo-pdf-viewer",
+  "version": "0.1.0",
+  "description": "apollo-pdf-viewer",
+  "main": "apollo-pdf-viewer.html",
+  "repository": "vaadin/apollo-pdf-viewer",
+  "keywords": [
+    "Vaadin",
+    "apollo-pdf-viewer",
+    "web-components",
+    "web-component",
+    "polymer"
+  ],
+  "author": "Vaadin Ltd",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vaadin/apollo-pdf-viewer/issues"
+  },
+  "homepage": "https://vaadin.com/components",
+  "files": [
+    "vaadin-*.js",
+    "src",
+    "theme"
+  ],
+  "scripts": {
+    "test": "wct",
+    "prestart": "polymer analyze vaadin-* > analysis.json",
+    "start": "polymer serve --open",
+    "preversion": "gulp version:update"
+  },
+  "devDependencies": {
+    "@vaadin/vaadin-component-dev-dependencies": "^1.0.0"
+  }
+}
